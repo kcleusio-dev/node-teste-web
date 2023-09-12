@@ -1,0 +1,25 @@
+POST http://localhost:7777/videos
+Content-type: application/json
+
+{
+  "titulo": "One Piece",
+  "descricao": "Temporada 1",
+  "duracao": 120
+}
+
+###
+
+GET http://localhost:7777/videos
+
+###
+PUT http://localhost:7777/videos/74ea1bdd-ed81-4c52-84ee-359f8a090718
+Content-type: application/json
+
+{
+  "titulo": "Equalizer II",
+  "descricao": "Capitulo final",
+  "duracao": 140
+}
+
+###
+DELETE http://localhost:7777/videos/bc444ed5-f55f-480e-84f5-fb43d9c23d2f
