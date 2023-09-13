@@ -1,10 +1,5 @@
 import { sql } from './bd.js';
 
-
-// sql` drop table if exists videos;`.then(() => {
-//   console.log('Tabela apagada!');
-// });
-
 sql`
 CREATE TABLE videos(
   id TEXT PRIMARY KEY,
