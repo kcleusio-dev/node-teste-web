@@ -2,9 +2,9 @@ POST https://node-teste-web.onrender.com/videos
 Content-type: application/json
 
 {
-  "titulo": "One Piece",
+  "titulo": "Naruto Classic",
   "descricao": "Temporada 1",
-  "duracao": 120
+  "duracao": 300
 }
 
 ###

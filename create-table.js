@@ -8,5 +8,5 @@ CREATE TABLE videos(
   duracao INTEGER
 );
 `.then(() => {
-  console.log('Tabela criada!')
+  console.log('Tabela criada com sucesso...!')
 });
